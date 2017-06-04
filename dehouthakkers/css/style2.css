@@ -1,0 +1,160 @@
+body{
+    font-family: Open Sans;
+}
+
+/* Header */
+
+header{
+    height: 100vh;
+    background:#222 url("../images/guywater.jpg") no-repeat center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+header .nav{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding-top: 10px;
+    position: relative;
+}
+header .nav a{
+    display: inline;
+    list-style: none;
+    letter-spacing: 0.15em;
+    padding: 0px 30px 0px 30px;
+    margin: 0px;
+}
+header .nav a:not(:last-child){
+    border-right: solid 0.2px;
+}
+a {
+    text-decoration: none;
+    color: #222;
+    font-size: 1em;
+}
+a:hover{
+    color: #a42222;
+    text-decoration: underline;
+}
+header .hero{
+    margin: 0px 0px;
+    color: #222;
+}
+header .title h1{
+    font-size: 2em;
+    margin-bottom: 0px;
+    text-align: center;
+}
+header .title h3{
+    margin-top: 0px;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+}
+header img{
+    left: 50%;
+    margin-left: -125px;
+    position: absolute;
+    width: 250px;
+    text-align: center;
+}
+header .logo{
+    margin: 100px 0px;
+    -webkit-animation-delay: 1s;
+}
+
+
+/* Banner */
+
+header .banner{
+    display: none;
+}
+
+/* Planning */
+
+section #planning{
+    background:#fafafa url("../images/blue2.jpg") no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+section .planningbox{
+    display: inline-block;
+}
+section #planning h3{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 60px 0px;
+}
+section #planning img{
+    display: block;
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+section #planning .text{
+    width: 80%;
+    margin-top: -5px;
+    margin: auto;
+    
+}
+section #planning .planningbox .vrijdag{
+    margin-bottom: 20px;
+}
+span{
+    font-weight: 700;
+}
+/* Leden */
+
+section #leden{
+    background:#fafafa   no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+section #leden .ledenbox{   
+}
+section #leden .lid{
+    text-align: center;
+    width: 100%;
+    margin: 0px auto 20px auto;
+    display: inline-block;
+    color: #000;
+}
+section #leden .space{
+    display: none;
+}
+section #leden .smaller{
+    font-size: 0.8em;
+}
+section #leden .small{
+    font-size: 0.96526em;
+}
+section #leden .ledenbox img{
+    height: 120px;
+    width: auto;
+    margin-top: 10px;
+    border: 0.5px solid black;
+    box-shadow: 0px 5px 10px #222;
+    border-radius: 100%;
+}
+
+/* Footer */
+
+footer{
+    margin-top: -20px;
+    background-color: lightgray;
+    height: 100px;
+    position: relative;
+    border-top: 2px solid black;
+    
+}
+footer p{
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    bottom: 40%;
+}

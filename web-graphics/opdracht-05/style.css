@@ -1,0 +1,45 @@
+body{
+    background-color: #e05038 !important; //e6af4b
+}
+header, header nav{
+    background-color: #e05038 !important;
+    color: #fff;
+}
+nav .container-fluid{
+    background-color: #444 !important;
+}
+header nav a{
+    color: #fff !important;
+}
+header nav a:hover, header nav .active a{
+    background-color: #f2cbbc !important;
+    color: #000 !important;
+}
+.jumbotron{
+    background-color: inherit !important;
+}
+header img{
+    width: 100px;
+}
+h1,p, li,  h3, h2, label{
+    color: #ffffff !important;
+}
+h4{
+    color: #f4f4f5 !important;
+    text-decoration: underline;
+}
+.btn{
+    background-color: #444 !important;
+    color: #fff !important;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}

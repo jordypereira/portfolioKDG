@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebDevs</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+       <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+             </button>
+              <a class="navbar-brand" href="index.html">WebDevs</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li class="active"><a href="#">Vacatures</a></li> 
+                  <li><a href="#">Contact</a></li> 
+                </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                    <div class="jumbotron">
+                        <div class="col-md-offset-2 col-md-2">
+                            <img  src="WebDevs%20copy.svg" class="img-responsive" alt="logo">
+                        </div>
+                        <h1 class="col-md-8">WebDevs BVBA</h1>
+                    </div>
+            </div>
+        </div>
+    </header>
+            <div class="container">
+              <h1>Vacatures</h1>
+              <h3 id="webdevelopertoggle" class="btn btn-default">MEDIOR/SENIOR WEBDEVELOPER</h3>
+              <div id="webdeveloper">
+                  <h4>Bedrijfsomschrijving</h4>
+                  <p>Onze klant is een bedrijf actief in de IT-sector en biedt oplossingen op maat aan. Om hun verdere groei te ondersteunen zijn we op zoek naar een webdeveloper voor onmiddellijke vaste indienstname.</p>
+                  <h4>Functieomschrijving</h4>
+                  <p>Je maakt deel uit van het PHP-onwikkelingsteam. Julie werken als team projecten uit op maat van de klant.</p>
+                  <h4>Functie-eisen</h4>
+                  <p>Je beschikt over de volgende eigenschappen:</p>
+                  <ul>
+                      <li>gebeten door IT en nieuwe technologieën</li>
+                      <li>minstens drie jaar ervaring in ontwikkeling in PHP</li>
+                      <li>een grote teamplayer met uitstekende communicatieve vaardigheden</li>
+                      <li>analytisch en kritisch ingesteld</li>
+                      <li>een echte problemsolver</li>
+                  </ul>
+                  <h4>Arbeidsvoorwaarden</h4>
+                  <p>Een uitdagende job in een dynamisch team van medewerkers. Je kan rekenen op een aantrekkelijk brutoloon, aangevuld met diverse extralegale voordelen, waaronder een firmawagen. Bij aanwerving krijg je een contract van onbepaalde duur.</p>
+                  <a href="webdeveloper.html" class="btn btn-info soliciteer" role="button">Soliciteer hier!</a>
+              </div><br>
+              <h3  class="btn btn-default">JUNIOR COFFEESUPPLIER</h3> 
+            </div>
+             
+    <script>
+        $(document).ready(function(){
+            $('form').hide();
+            $('#webdeveloper').hide();
+            $('#webdevelopertoggle').on('click', function(){
+                $('#webdeveloper').slideToggle();
+            });
+        });
+    </script>
+</body>
+</html>

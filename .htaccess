@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^home$ index.html
+
+RewriteRule ^about$ Bio.html
+RewriteRule ^hobbys$ Hobbys.html
+RewriteRule ^travels$ Travels.html
+RewriteRule ^projects$ Projects.html
+RewriteRule ^contact$ Contact.html
+
+RewriteRule ^cv$ /Images/PereiraJordy_CV.pdf

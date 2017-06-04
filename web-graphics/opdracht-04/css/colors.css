@@ -1,0 +1,93 @@
+/* Kleurenschema
+
+http://paletton.com/palette.php?uid=53o180kleloaAw6fVqHqwg6vSaL
+Base: #265B6A   Blue/Green
+2nd:  #3F51B5   Purple   changed to Indigo
+3rd : #84A136   Light Green
+
++ google color scheme
+---------------------------------------
+lighter base color: #6C949F
+base color: #265B6A
+darker base color: #022A35
+
+accent color: #3F51B5
+
+lighter active accent color: #8C9EFF
+light active accent color: #536DFE
+active color: #304FFE
+darkest active accent color: #1A237E
+
+*/
+.lighterBaseColor a:hover{
+    color: #6C949F;
+}
+.base-color, .base-color h3{
+    color: #265B6A;
+}
+.activecolor{
+    color: #3F51B5;
+}
+.second-color, .second-color h3{
+    color: #3F51B5;
+}
+.third-color{
+    color: #84A136;
+}
+.basedarkbasecolor, .basedarkbasecolor h3{
+    color: #104250;
+}
+.base-dark-color{
+    color: #022A35;
+}
+
+
+.base-background-color{
+    background-color: #6C949F;
+}
+.base-background-color2{
+    background-color: #457684;
+}
+.activebgcolor{
+    background-color: #304FFE;
+    color: #fff !important;
+}
+.whitebg{
+    background-color: #fff;
+}
+
+.whitehover:hover{
+    color: #fff;
+}
+.whitehoverbg:hover{
+    background-color: #fff;
+    color: #333 !important;
+}
+
+.border-color{
+    border: 3px solid #457684;
+}
+.border-color:hover{
+    border: 1px solid #457684;
+}
+.border-color-hover:hover, .article-img:hover{
+    border: 5px solid #457684;
+}
+.border-color2-hover:hover{
+    border: 1px solid #3F51B5;
+}
+
+.button-color{
+    border-color: #8C9EFF;
+}
+.button-color.active{
+    border-color: #304FFE;
+}
+
+
+.white, .white a{
+    color: #fff;
+}
+.white .white a{
+    color: #fff;
+}

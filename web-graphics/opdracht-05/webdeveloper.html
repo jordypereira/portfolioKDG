@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solicitatie formulier Webcompany</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+       <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+             </button>
+              <a class="navbar-brand" href="index.html">WebDevs</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li class="active"><a href="index.html">Vacatures</a></li> 
+                  <li><a href="#">Contact</a></li> 
+                </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                    <div class="jumbotron">
+                        <div class="col-sm-offset-2 col-sm-2">
+                            <img  src="WebDevs%20copy.svg" class="img-responsive" alt="logo">
+                        </div>
+                        <h1 class="col-sm-8">WebDevs BVBA</h1>
+                    </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <form action="#" role="form" class="form-horizontal">
+                   <h2 class="text-center">WebDevs Solicitatie voor WebDeveloper</h2>
+                    <div class="form-group">
+                        <label for="name" class="control-label col-sm-4">Naam:</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="bv. Vanderstukken" required></div>
+                        </div>
+                    <div class="form-group">
+                        <label for="surname" class="control-label col-sm-4">Voornaam:</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" name="surname" id="surname" placeholder="bv. Max" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="control-label col-sm-4">E-mail:</label>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="bv. max.vanderstukken@mail.be" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">Geslacht:</label>
+                       <div class="col-sm-6">
+                             <label class="radio-inline" for="male"><input type="radio" name="gender" value="male" id="male" checked> Man</label>
+                            <label class="radio-inline" for="female"><input type="radio" name="gender" value="female" id="female"> Vrouw</label>
+                            <label class="radio-inline" for="other"><input type="radio" name="gender" value="other" id="other"> Anders</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="birth" class="control-label col-sm-4">Geboortedatum:</label>
+                        <div class="col-sm-6">
+                            <input type="date" class="form-control" name="birth" id="birth" required>
+                        </div>
+                    </div>
+                     <div class="form-group">
+                        <label for="street" class="control-label col-sm-4">Straatnaam:</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" name="street" id="street" placeholder="bv. zeemanstraat 21" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="zip" class="control-label col-sm-4">Postcode:</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" name="zip" id="zip" placeholder="bv. 2018" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="city" class="control-label col-sm-4">Stad:</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" name="city" id="city" placeholder="bv. Antwerpen" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="country" class="control-label col-sm-4">Land:</label>
+                        <div class="col-sm-6">
+                            <select name="country" id="country" class="form-control">
+                            <option value="belgium">Belgie</option>
+                            <option value="nederland">Nederland</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="control-label col-sm-4">Tel. nr:</label>
+                        <div class="col-sm-6">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="bv. 0479654696" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience" class="control-label col-sm-4">Aantal jaren ervaring:</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" min="0" name="experience" id="experience" placeholder="bv. 3" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="motivation" class="control-label col-sm-4">Vertel ons je motivatie:</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control" minlength="15" name="motivation" id="motivation" placeholder="min. 15 karakters" required></textarea>
+                        </div>
+                    </div>
+                     <div class="form-group">        
+                      <div class="col-sm-offset-4 col-sm-8">
+                        <button type="submit" class="btn btn-succes">Verzend solicitatie</button>
+                      </div>
+                    </div>
+                </form>
+    </div>
+</body>
+</html>

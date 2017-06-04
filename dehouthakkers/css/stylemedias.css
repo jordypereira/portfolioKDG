@@ -1,0 +1,139 @@
+@media all and (min-width:1200px){
+    .left{
+        float: left;
+    }
+    header{
+        background:#222 url("../images/guywater.jpg") no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+    }
+    header .title{
+        margin-left: 100px;
+        text-align: left;
+    }
+    header .title h1{
+        font-size: 3.5em;
+    }
+    header .title h3{
+        font-size: 1.5em;
+    }
+    header .logo{
+        width: 300px;
+        margin: 150px 0px;
+    }
+    
+    /* Banner */
+
+    header .banner{
+        padding-top: 2%;
+        float: right;
+        margin-right: 50px;
+        display: block;
+        -webkit-animation-delay: 1s;
+    }
+    
+    /* Planning */
+
+    section #planning{
+        height: 200vh;
+        min-height: 1800px;
+    }
+    section .planningbox{
+        width: 60%;
+        position: absolute;
+        left: 20%;
+        margin-top: 10px;
+    }
+    section #planning h3{
+        clear: both;
+    }
+    section #planning img{
+        float: left;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    section #planning .text{
+        float: right;
+        width: 45%;
+        margin-top: 0px;
+    }
+    section #planning .text p{
+        margin-top: 0px;
+    }
+    section #planning .event2{
+        clear: both;
+    }
+    
+    /* Leden */
+
+    section #leden{
+        height: 100vh;
+        min-height: 1100px;
+        background:#222 url("../images/tree2.jpg") no-repeat center fixed;
+        
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+    }
+    section .cover{
+        height: 100%;
+        background-color:	rgba(34, 34, 34, 0.3);
+    }
+    section #leden .ledenbox{   
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        margin-left: -40%;
+        border-radius: 20px;
+        margin-top: 50px ;
+    }
+    section #leden .lid{
+        text-align: center;
+        width: 30%;
+        margin: 0px;
+        margin-left: 15px;
+        display: inline-block;
+        color: #fff;
+        text-shadow: 2px 2px #222;
+    }
+    section #leden .space{
+        display: inline-block;
+    }
+}
+
+@media all and (min-width:1300px){
+    header .title{
+        margin-left: 150px;
+    }
+    header .title h1{
+        font-size: 4.0em;
+    }
+    header .banner{
+        margin-right: 100px;
+    }
+}
+
+@media all and (min-width:1400px){
+    header .banner{
+        margin-right: 150px;
+    }
+}
+
+
+@media all and (min-width:1550px){
+    header .title{
+        margin-left: 250px;
+    }
+    header .title h1{
+        font-size: 4.5em;
+    }
+    header .banner{
+        margin-right: 220px;
+    }
+    section #planning{
+        height: 220vh;
+    }
+}
