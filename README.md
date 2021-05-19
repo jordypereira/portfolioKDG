@@ -1,5 +1,3 @@
-# portfolioKDG
-
 # portfolioKDG - My first HTML & CSS Website
 > March 2016
 
